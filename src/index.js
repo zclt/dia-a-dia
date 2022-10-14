@@ -12,7 +12,7 @@ root.render(
       domain="zclt-dev.us.auth0.com"
       clientId="yEtu6w9d4ydoMHygcK3D9ISkDqBjcsev"
       // redirectUri={window.location.origin}
-      redirectUri="https://zclt.github.io/dia-a-dia-app/"
+      redirectUri="https://zclt.github.io/dia-a-dia-app"
     >
       <App />
     </Auth0Provider>

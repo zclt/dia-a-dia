@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/dia-a-dia-app/static/css/main.e6c13ad2.css",
-    "main.js": "/dia-a-dia-app/static/js/main.9360a2f3.js",
+    "main.js": "/dia-a-dia-app/static/js/main.775c9250.js",
     "static/js/787.e52afd47.chunk.js": "/dia-a-dia-app/static/js/787.e52afd47.chunk.js",
     "index.html": "/dia-a-dia-app/index.html",
     "main.e6c13ad2.css.map": "/dia-a-dia-app/static/css/main.e6c13ad2.css.map",
-    "main.9360a2f3.js.map": "/dia-a-dia-app/static/js/main.9360a2f3.js.map",
+    "main.775c9250.js.map": "/dia-a-dia-app/static/js/main.775c9250.js.map",
     "787.e52afd47.chunk.js.map": "/dia-a-dia-app/static/js/787.e52afd47.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.9360a2f3.js"
+    "static/js/main.775c9250.js"
   ]
 }
