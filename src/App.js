@@ -17,7 +17,7 @@ function App() {
 
   function getMovimentacao(id) {
     axios.defaults.headers.get['Access-Control-Allow-Origin'] = '*'
-    axios.get(`/api/Movimentacao/${id}`, {
+    axios.get(`/movimentacao/${id}`, {
       headers:{
         authorization: `Bearer ${token}`
       }
