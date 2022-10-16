@@ -9,10 +9,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Auth0Provider
-      domain="zclt-dev.us.auth0.com"
-      clientId="yEtu6w9d4ydoMHygcK3D9ISkDqBjcsev"
-      // redirectUri={window.location.origin}
-      redirectUri="https://dia-a-dia-app.herokuapp.com"
+      domain={process.env.REACT_APP_DOMAIN}
+      clientId={process.env.REACT_APP_CLIENT_ID}
+      redirectUri={process.env.REACT_APP_REDIRECT_URI}
     >
       <App />
     </Auth0Provider>

@@ -11,12 +11,12 @@ function App() {
   const r1 = window.location.origin
 
   async function asyncGetToken() {
-    setToken(isAuthenticated ? await getAccessTokenSilently({audience: "https://zclt-dev.us.auth0.com/api/v2/"}) : 'not logged')
+    setToken(isAuthenticated ? await getAccessTokenSilently({audience: process.env.REACT_APP_AUDIENCE }) : 'not logged')
     console.log(token)
   }
 
   function getMovimentacao(id) {
-     axios.defaults.headers.get['Access-Control-Allow-Origin'] = '*'
+    axios.defaults.headers.get['Access-Control-Allow-Origin'] = '*'
     axios.get(`/Movimentacao/${id}`, {
       headers:{
         authorization: `Bearer ${token}`
