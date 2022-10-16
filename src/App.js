@@ -28,10 +28,10 @@ function App() {
 
   return (
     <div className="App">
+      <p>{ isAuthenticated ? <img src={user?.picture}/> : 'no logged' }</p> 
       <button onClick={() => loginWithRedirect()}>Log In</button>
       <button onClick={() => logout({ returnTo: logoutUri })}>Log out</button>
       <button onClick={() => asyncMovimentacao("62f105ff6f552f142a627040")}>Movimentacao</button>
-      <h1>{ isAuthenticated ? user?.name : 'no logged' }</h1>
       <pre>{ JSON.stringify(movimentacao, null, 4) }</pre>
     </div>
   );
