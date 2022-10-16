@@ -2,7 +2,8 @@
   "name": "dia-a-dia-app",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://zclt.github.io/dia-a-dia-app/",
+  "homepage": "https://dia-a-dia-app.herokuapp.com",
+  "proxy": "https://conta-gasto.herokuapp.com",
   "dependencies": {
     "@auth0/auth0-react": "^1.12.0",
     "@testing-library/jest-dom": "^5.16.5",

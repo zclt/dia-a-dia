@@ -17,7 +17,7 @@ function App() {
 
   function getMovimentacao(id) {
      axios.defaults.headers.get['Access-Control-Allow-Origin'] = '*'
-    axios.get(`https://conta-gasto.herokuapp.com/Movimentacao/${id}`, {
+    axios.get(`/Movimentacao/${id}`, {
       headers:{
         authorization: `Bearer ${token}`
       }
